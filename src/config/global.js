@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Generación, transformación y uso de la energía eléctrica',
+    descripcionCurso:
+      'Este componente formativo explora la generación y transformación de la energía eléctrica, abordando conceptos como el átomo, tipos de energía (renovables y no renovables), y las diferentes fuentes (solar, eólica, hidráulica, geotérmica). También explica el funcionamiento de centrales eléctricas y conceptos básicos de electricidad, como voltaje e intensidad, resaltando la importancia de la energía en la sociedad y la industria.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +37,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Energía',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Fuentes de energía',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Energía en Colombia',
+            hash: 't_1_2',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,31 +100,127 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Energía ',
+      referencia:
+        'Lifeder Edu. (2022). La ENERGÍA explicada: fuentes, tipos, propiedades, aplicaciones. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=iO7GUgcfJL8&ab_channel=LifederEdu  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Fuentes de energía ',
+      referencia:
+        'EcologíaVerde. (2020). Las FUENTES de energía más UTILIZADAS en el mundo. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=j4WhHGgtWaY&ab_channel=Ecolog%C3%ADaVerde  ',
+    },
+    {
+      tema: 'Fuentes de energía ',
+      referencia:
+        'CuriosaMente. (2022). ¿Qué tan verdes son las energías "verdes"?. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=nQcXm9rmdZM&ab_channel=CuriosaMente  ',
+    },
+    {
+      tema: 'Energía en Colombia ',
+      referencia:
+        'Ministerio de Minas y Energía. (2020). ¿De dónde viene la energía eléctrica en Colombia?. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=e2I_kNsqFPo&ab_channel=MinisteriodeMinasyEnerg%C3%ADa%E2%9A%A1%EF%B8%8F  ',
+    },
+    {
+      tema: 'Energía en Colombia ',
+      referencia:
+        'Ministerio de Minas y Energía. (2021). ¿Sabes cuál es la energía que mueve a Colombia y que es clave para la transición energética? [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=8nSWp3gHPVM&ab_channel=MinisteriodeMinasyEnerg%C3%ADa%E2%9A%A1%EF%B8%8F  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Biomasa',
+      significado:
+        'energía obtenida de materia orgánica como plantas o desechos animales. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Central eléctrica',
+      significado:
+        'instalación destinada a transformar energía primaria en energía eléctrica. ',
+    },
+    {
+      termino: 'Corriente eléctrica',
+      significado:
+        'movimiento de electrones a través de un conductor en un circuito cerrado. ',
+    },
+    {
+      termino: 'Energía primaria',
+      significado:
+        'forma de energía disponible en la naturaleza antes de ser convertida en electricidad. ',
+    },
+    {
+      termino: 'Energía',
+      significado:
+        'capacidad para realizar trabajo; no puede ser creada, solo transformada. ',
+    },
+    {
+      termino: 'Fisión nuclear',
+      significado:
+        'proceso de dividir el núcleo de un átomo, liberando energía que se puede convertir en electricidad. ',
+    },
+    {
+      termino: 'Fuentes no renovables',
+      significado:
+        'fuentes limitadas que no se renuevan en corto tiempo, como el petróleo, carbón y gas natural. ',
+    },
+    {
+      termino: 'Fuentes renovables',
+      significado:
+        'fuentes de energía inagotables generadas por procesos continuos, como el sol, viento y agua. ',
+    },
+    {
+      termino: 'Generador',
+      significado:
+        'dispositivo que convierte energía mecánica en electricidad mediante una turbina. ',
+    },
+    {
+      termino: 'Voltaje',
+      significado:
+        'diferencia de potencial eléctrico entre dos puntos de un circuito, medida en voltios. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Buitrago, M.R. (2003). <em>Tecnología constructiva 3</em>. Envigado: Susaeta Ediciones. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Deléage, J.P. & Souchon, C. (1996). <em>La energía como tema interdisciplinar de la educación</em>. UNESCO. ',
+      link: '',
+    },
+    {
+      referencia:
+        'García, F.J. (2009). <em>Ámbito científico-tecnológico</em>. Equipo Editex. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Martínez, A. (1999). <em>Análisis del binomio Energía - Medio Ambiente</em>. Murcia: Universidad de Castilla de la Mancha. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Roldán, J. (2008). <em>Fuentes de energía</em>. Madrid: Cengage Learning Paraninfo. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Senner, A. (1994). <em>Principios de electrotecnia</em>. Barcelona: Reverté. ',
       link: '',
     },
   ],
@@ -150,8 +244,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Wilmar Martínez Urrutia ',
+          cargo: 'Experto temático  ',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,17 +260,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
+          nombre: '',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -179,11 +279,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
