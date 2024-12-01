@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_84320022_GENERACION_TRANSFORMACION_USO_ENERGIA_ELECTRICA/](https://ecored-sena.github.io/CF1_84320022_GENERACION_TRANSFORMACION_USO_ENERGIA_ELECTRICA/)
 
 #
 
