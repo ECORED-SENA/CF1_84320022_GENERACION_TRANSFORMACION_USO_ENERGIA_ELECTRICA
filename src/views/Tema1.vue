@@ -349,18 +349,13 @@
                   p Lo invitamos a escuchar el siguiente Pódcast:
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="¿Sabía usted que Colombia está en camino de transformar su matriz energética? "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/podcast1.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   tiempo
                 )
         .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema1/44.png")
-
-
-
-
-
 
       
 </template>
