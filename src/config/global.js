@@ -102,7 +102,7 @@ export default {
     {
       tema: 'Energía ',
       referencia:
-        'Lifeder Edu. (2022). La ENERGÍA explicada: fuentes, tipos, propiedades, aplicaciones. [Archivo de video] Youtube.   ',
+        'Lifeder Edu. (2022). La ENERGÍA explicada: fuentes, tipos, propiedades, aplicaciones. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=iO7GUgcfJL8&ab_channel=LifederEdu  ',
@@ -110,7 +110,7 @@ export default {
     {
       tema: 'Fuentes de energía ',
       referencia:
-        'EcologíaVerde. (2020). Las FUENTES de energía más UTILIZADAS en el mundo. [Archivo de video] Youtube. ',
+        'EcologíaVerde. (2020). Las FUENTES de energía más UTILIZADAS en el mundo. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=j4WhHGgtWaY&ab_channel=Ecolog%C3%ADaVerde  ',
@@ -118,7 +118,7 @@ export default {
     {
       tema: 'Fuentes de energía ',
       referencia:
-        'CuriosaMente. (2022). ¿Qué tan verdes son las energías "verdes"?. [Archivo de video] Youtube. ',
+        'CuriosaMente. (2022). ¿Qué tan verdes son las energías "verdes"?. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=nQcXm9rmdZM&ab_channel=CuriosaMente  ',
@@ -126,7 +126,7 @@ export default {
     {
       tema: 'Energía en Colombia ',
       referencia:
-        'Ministerio de Minas y Energía. (2020). ¿De dónde viene la energía eléctrica en Colombia?. [Archivo de video] Youtube. ',
+        'Ministerio de Minas y Energía. (2020). ¿De dónde viene la energía eléctrica en Colombia?. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=e2I_kNsqFPo&ab_channel=MinisteriodeMinasyEnerg%C3%ADa%E2%9A%A1%EF%B8%8F  ',
@@ -134,7 +134,7 @@ export default {
     {
       tema: 'Energía en Colombia ',
       referencia:
-        'Ministerio de Minas y Energía. (2021). ¿Sabes cuál es la energía que mueve a Colombia y que es clave para la transición energética? [Archivo de video] Youtube. ',
+        'Ministerio de Minas y Energía. (2021). ¿Sabes cuál es la energía que mueve a Colombia y que es clave para la transición energética? [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=8nSWp3gHPVM&ab_channel=MinisteriodeMinasyEnerg%C3%ADa%E2%9A%A1%EF%B8%8F  ',
@@ -270,8 +270,18 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: '',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
